@@ -12,3 +12,33 @@
     margin-left: 23%;
     width: 10rem;
 }
+
+aside{
+    position: fixed;
+    width: 21%;
+}
+
+main{
+    margin-left: 21%;
+}
+
+h1{
+    padding-top: 10%;
+    font-family: 'Oi', cursive;
+
+}
+
+#hero{
+    background: rgb(1,234,165);
+background: linear-gradient(90deg, rgba(1,234,165,0.8575805322128851) 16%, rgba(1,181,234,0.8575805322128851) 33%, rgba(8,226,180,1) 48%, rgba(20,188,152,1) 71%, rgba(26,173,147,1) 84%, rgba(34,114,198,0.865983893557423) 100%);
+background-repeat: repeat;
+}
+
+ #face{
+    width: 22rem;
+ }
+
+ #sobremi{
+    
+ }
+
