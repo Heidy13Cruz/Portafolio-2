@@ -1,6 +1,6 @@
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 .card{
@@ -9,36 +9,53 @@
 }
 
 #profile{
-    margin-left: 23%;
+    /* margin-left: 23%; */
     width: 10rem;
 }
 
-aside{
+/* aside{
     position: fixed;
-    width: 21%;
+    width: 21vw;
+}
+*/
+
+aside {
+    position: fixed;
+    float: left;
+    width: 20vw;
+    height: 100vh;
 }
 
-main{
-    margin-left: 21%;
+.cajon {
+    float: left;
+    /* background-color: #ccc; */
+    width: 20vw;
+    height: 100vh;
 }
 
 h1{
-    padding-top: 10%;
+    background-color: red;
+    width: 100%;
     font-family: 'Oi', cursive;
-
 }
 
 #hero{
-    background: rgb(1,234,165);
-background: linear-gradient(90deg, rgba(1,234,165,0.8575805322128851) 16%, rgba(1,181,234,0.8575805322128851) 33%, rgba(8,226,180,1) 48%, rgba(20,188,152,1) 71%, rgba(26,173,147,1) 84%, rgba(34,114,198,0.865983893557423) 100%);
-background-repeat: repeat;
+    /* background: rgb(1,234,165);
+background: linear-gradient(90deg, rgba(1,234,165,0.8575805322128851) 16%, rgba(1,181,234,0.8575805322128851) 33%, rgba(8,226,180,1) 48%, rgba(20,188,152,1) 71%, rgba(26,173,147,1) 84%, rgba(34,114,198,0.865983893557423) 100%); */
+/* background-repeat: repeat; */
+padding-bottom: 2%;
 }
 
  #face{
-    width: 22rem;
+    width: 5rem;
  }
 
  #sobremi{
+    text-align: center;
     
+ }
+
+ #resumen{
+ display: flex;
  }
 
