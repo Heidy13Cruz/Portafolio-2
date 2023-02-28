@@ -3,11 +3,9 @@
     padding: 0;
 }
 
-.card{
-    justify-content: center;
-    text-align: center;
-    width: 19vw;
-
+.prueba {
+    width: 100%;
+    aspect-ratio: 4/3;
 }
 
 #profile{
@@ -15,7 +13,7 @@
     width: 10rem;
 }
 
-
+/*
 aside {
     position: fixed;
     float: left;
@@ -23,11 +21,9 @@ aside {
     height: 100vh;
 }
 
-/*.cajon {
-    float: left;
-    /* background-color: #ccc; 
-    width: 20vw;
-    height: 100vh;
+
+.aside2{
+    display: none;
 }*/
 
 h1{
@@ -67,9 +63,9 @@ main{
 .hero-container{
     width: 100vh;
     height: 100vh; 
-    
-    
+        
 }
+
 
  #face{
     width: 50%;
@@ -112,7 +108,12 @@ height: 98vh;
     width: 100vh;
     height: 600vh;
 }
-
- .container img{
-    width: 30rem;
- }
+/*
+@media only screen and (max-width: 800px){
+    .aside2{
+        display: block;
+    }
+    .aside-desk{
+        display: none;
+    }
+}*/
